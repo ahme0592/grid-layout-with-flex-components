@@ -1,0 +1,80 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header styling */
+  .siteheader {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .siteheader h1 {
+    font-size: 2rem;
+  }
+  
+  /* Emojis container */
+  .emojis {
+    display: grid; /* Use grid for layout */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between cards */
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  /* Emoji card styling */
+  .emoji {
+    display: flex; /* Use flexbox for card content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Space out content */
+    padding: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
+  }
+  
+  /* Emoji icon styling */
+  .icon {
+    font-size: 3rem; /* Larger size for emoji icon */
+    text-align: center; /* Center the emoji */
+    margin: 10px 0;
+  }
+  
+  /* Card title styling */
+  .emoji h2 {
+    font-size: 1.5rem;
+    text-align: center; /* Center the title */
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc; /* Light gray underline */
+    padding-bottom: 10px;
+  }
+  
+  /* Paragraph styling */
+  .emoji p {
+    font-size: 1rem;
+    margin: 10px 0;
+    text-align: center; /* Center the text */
+  }
+  
+  /* Link (button) styling */
+  .emoji a {
+    display: inline-block;
+    background-color: purple; /* Purple background */
+    color: white; /* White text */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: auto; /* Push the link to the bottom */
+    align-self: center; /* Center the button horizontally */
+  }
+  
+  .emoji a:hover {
+    background-color: #6a0dad; /* Slightly darker purple on hover */
+  }
+  
