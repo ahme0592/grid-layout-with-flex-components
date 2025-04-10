@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.main-content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.new-arrivals {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.new-arrivals h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.new-arrivals p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.new-arrivals .items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.new-arrivals .item {
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.new-arrivals .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.new-arrivals .item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.new-arrivals .item p {
+    font-size: 16px;
+    color: #333;
+}
+
+.peaky-blinders {
+    padding: 50
